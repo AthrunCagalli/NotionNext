@@ -36,7 +36,7 @@ const SocialButton = () => {
       {BLOG.CONTACT_BILIBILI && <a target='_blank' rel='noreferrer' title={'bilibili'} href={BLOG.CONTACT_BILIBILI} >
         <i className='transform hover:scale-125 duration-150 fab fa-bilibili dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
-      {BLOG.CONTACT_YOUTUBE && <a target='_blank' rel='noreferrer' title={'youtube'} href={BLOG.CONTACT_YOUTUBE} >
+      {BLOG.CONTACT_YOUTUBE && <a target='_blank' rel='noreferrer' title={'itch'} href={BLOG.CONTACT_ITCH} >
         <i className='transform hover:scale-125 duration-150 fab fa-itch-io dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
     </div>
